@@ -4,7 +4,7 @@ export const dynamic = "force-dynamic";
 export const runtime = "edge";
 
 const NODE_BACKEND_URL =
-  process.env.NODE_BACKEND_URL || "http://localhost:5000";
+  process.env.NODE_BACKEND_URL || "https://mini-project-final-4thsem-1.onrender.com";
 
 export async function POST(request: NextRequest) {
   const body = await request.json();
